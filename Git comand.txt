@@ -1,0 +1,41 @@
+status - стан репозиторію
+init - створення репозиторію
+ls -al - показує що є там де ти
+
+щоб подивитися папку.git
+cd .git перехід на нижчий рівень у git
+explorer . і папка відкриється
+cd .. перехід на вищий рівень у git
+
+add <назва файлу> - додати файл до репозитарію
+
+git config user.email vakun2006@gmail.com
+git config user.name "Valentyn Mozul"
+git commit -m"Added README" - закоммітить
+
+git log - список всіх коммітів
+
+git branch - показує гілки (* активна гілка) 
+
+git checkout -b <назва гілки> - переключить на нову гілку і створить
+
+clear - очистити git
+
+git add <назва папки> - додати всю папку
+
+cd .src перехід на нижчий рівень у git
+cd .. перехід на вищий рівень у git
+
+git switch -  (скасувати операцію)
+
+git diff  - порівняння змін між комітами
+
+git remote -v  - показує список віддалених репозиторіїв (gitHub)
+
+git remote add origin https://github.com/Vaka-vaka/sample до gitHub
+git remote -v
+origin  https://github.com/Vaka-vaka/sample (fetch)
+origin  https://github.com/Vaka-vaka/sample (push)
+git push origin master до gitHub додає гілку мастер
+
+
