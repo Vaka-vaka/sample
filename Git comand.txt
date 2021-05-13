@@ -37,5 +37,10 @@ git remote -v
 origin  https://github.com/Vaka-vaka/sample (fetch)
 origin  https://github.com/Vaka-vaka/sample (push)
 git push origin master до gitHub додає гілку мастер
+git pull origin master витягує вказану гілку з gitHub до мого компа
 
+git srash - приховує ваші зміни в спеціальне git сховище
+git stash apply - повертає ваші зміни назад
 
+git add -u  - приєднує усі файли до репозитарію
+touch .gitignore - створює файл ігноре
